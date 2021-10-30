@@ -1,0 +1,49 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+}
+h1 {
+  font-size: 3rems;
+  color: #212614;
+  text-align: center;
+}
+h2 {
+  color: #313131;
+  text-align: center;
+}
+.container {
+  margin: 95%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+.col-bg {
+  background-color: #212616;
+  color: #fff;
+  padding: 1em;
+}
+.col1 {
+  width: 20%;
+}
+.col2 {
+  width: 45%;
+}
+.col3 {
+  width: 70%;
+}
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .col1,
+  col2,
+  col3 {
+    width: 100%;
+  }
+}
